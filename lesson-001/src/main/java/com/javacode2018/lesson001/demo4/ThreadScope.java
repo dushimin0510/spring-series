@@ -29,6 +29,8 @@ public class ThreadScope implements Scope {
             bean = objectFactory.getObject();
             beanMap.get().put(name, bean);
         }
+
+
         return bean;
     }
 
